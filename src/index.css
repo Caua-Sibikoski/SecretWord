@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg,
+      rgb(172, 10, 204) 0%,
+      rgba(0, 0, 0, 1) 100%);
+  color: #ffff;
+}
+
+button {
+  background: #6a018d; /* cor de fundo */
+  color: #fff; /* cor de texto */
+  padding: 0 45px;
+  border: 2px solid #fff;
+  border-radius: 25px; /* aspecto aredondado do botão */
+  height: 50px; /* altura */
+  text-transform: uppercase; /* caixa alta */
+  font-weight: bold; /* texto em negrito */
+  font-size: 1.2em; /* aumentar a fonte do botão */
+  cursor: pointer; /* aparecer a mão quando passar em cima do botão */
+  transition: .4s;
+}
+
+button:hover { /* mudar a cor de fundo do botão */
+  background-color: #220142;
+}
